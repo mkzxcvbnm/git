@@ -15,6 +15,7 @@ git commit -a -m                将暂存区的修改提交到仓库
                                 -a跳过暂存区
                                 -m直接在命令行输入注释,不打开编辑器
                                 --amend替换最后一次提交
+git rebase -i HEAD~3            -i的意思是--interactive 后面的参数是指定编辑区间
 git diff --staged               查看尚未暂存的文件更新了哪些部分
                                 --staged查看已暂存的将要添加到下次提交里的内容
 git reset                       撤销操作 HEAD~2 回退到前两个版本
